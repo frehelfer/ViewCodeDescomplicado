@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C505A3A29475D2300CA0254 /* AllModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C505A3929475D2300CA0254 /* AllModel.swift */; };
+		0C505A3D2947632700CA0254 /* LastMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C505A3C2947632700CA0254 /* LastMessageCollectionViewCell.swift */; };
+		0C505A3F294767D900CA0254 /* DetailMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C505A3E294767D900CA0254 /* DetailMessageCollectionViewCell.swift */; };
+		0C505A42294772B300CA0254 /* ContatoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C505A41294772B300CA0254 /* ContatoController.swift */; };
 		0CBBB9612943C2450093D193 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBB9572943C2450093D193 /* Custom.swift */; };
 		0CBBB9622943C2450093D193 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBB9582943C2450093D193 /* Extension+Button.swift */; };
 		0CBBB9632943C2450093D193 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBB9592943C2450093D193 /* Extension+String.swift */; };
@@ -32,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C505A3929475D2300CA0254 /* AllModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModel.swift; sourceTree = "<group>"; };
+		0C505A3C2947632700CA0254 /* LastMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C505A3E294767D900CA0254 /* DetailMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C505A41294772B300CA0254 /* ContatoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoController.swift; sourceTree = "<group>"; };
 		0CBBB9572943C2450093D193 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 		0CBBB9582943C2450093D193 /* Extension+Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
 		0CBBB9592943C2450093D193 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
@@ -79,6 +87,31 @@
 				5EAD042DE3B9F775E7E79DC0 /* Pods-Messager.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		0C505A3829475D0E00CA0254 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C505A3929475D2300CA0254 /* AllModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C505A3B2947630E00CA0254 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0C505A3C2947632700CA0254 /* LastMessageCollectionViewCell.swift */,
+				0C505A3E294767D900CA0254 /* DetailMessageCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0C505A402947729D00CA0254 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C505A41294772B300CA0254 /* ContatoController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0CBBB9562943C2450093D193 /* Utils */ = {
@@ -135,6 +168,7 @@
 			children = (
 				0CE8980E29437150000F1FE0 /* AppDelegate.swift */,
 				0CE8981029437150000F1FE0 /* SceneDelegate.swift */,
+				0C505A3829475D0E00CA0254 /* Model */,
 				0CBBB9562943C2450093D193 /* Utils */,
 				0CE898222943725E000F1FE0 /* Alert */,
 				0CF44E3F2944FE5A004D9F35 /* Home */,
@@ -195,6 +229,8 @@
 		0CF44E3F2944FE5A004D9F35 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0C505A402947729D00CA0254 /* Controller */,
+				0C505A3B2947630E00CA0254 /* Cell */,
 				0CF44E452944FF3F004D9F35 /* NavView */,
 				0CF44E422944FE75004D9F35 /* View */,
 				0CF44E402944FE72004D9F35 /* HomeVC.swift */,
@@ -351,14 +387,18 @@
 				0CE8980F29437150000F1FE0 /* AppDelegate.swift in Sources */,
 				0CBBB9612943C2450093D193 /* Custom.swift in Sources */,
 				0CBBB9642943C2450093D193 /* Extension+UIView.swift in Sources */,
+				0C505A3A29475D2300CA0254 /* AllModel.swift in Sources */,
 				0CF44E472944FF50004D9F35 /* NavView.swift in Sources */,
+				0C505A42294772B300CA0254 /* ContatoController.swift in Sources */,
 				0CE898302943725F000F1FE0 /* LoginVC.swift in Sources */,
 				0CE898312943725F000F1FE0 /* RegisterScreen.swift in Sources */,
 				0CE8982E2943725F000F1FE0 /* Alert.swift in Sources */,
 				0CBBB9622943C2450093D193 /* Extension+Button.swift in Sources */,
 				0CF44E412944FE72004D9F35 /* HomeVC.swift in Sources */,
 				0CE8981129437150000F1FE0 /* SceneDelegate.swift in Sources */,
+				0C505A3D2947632700CA0254 /* LastMessageCollectionViewCell.swift in Sources */,
 				0CE8982F2943725F000F1FE0 /* LoginScreen.swift in Sources */,
+				0C505A3F294767D900CA0254 /* DetailMessageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
